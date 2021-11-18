@@ -113,8 +113,6 @@ export default function Login() {
 
                         <button type="button" className="esqueceu" onClick={() => setEsqueceu(true)}> Esqueceu a senha? Clique aqui </button>
                         
-                        <br />
-                        
                         <button type="submit" id="btn-Login" onClick={() => {
                             funcao(document.getElementById("user").value, document.getElementById("senha").value)
                         }}>Entrar</button>
