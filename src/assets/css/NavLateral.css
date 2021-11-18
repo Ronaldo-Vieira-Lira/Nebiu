@@ -6,6 +6,8 @@
     position: fixed;
     margin-left: 80px;
     padding: 15px;
+    height: 85%;
+    overflow-y: scroll;
     border-radius: 8px;
     box-shadow: 0 0 3px #7a7a7cc9;
     background-color: #fff;
@@ -79,6 +81,7 @@
     #container-Lateral{
         margin-left: 20px;
         width: 200px;
+        
     }
     #area-User img {
         width: 120px;

@@ -16,7 +16,7 @@ export default function Listpost() {
     for (let x = 0; x <= rand; x++) {
         postList.push({
             id: x, 
-            Userimg: date[x]?.picture.thumbnail, 
+            Userimg: date[x]?.picture.medium, 
             Usernome: `${date[x]?.name.first} ${date[x]?.name.last}`, 
             descricao: "Meu novo post", 
             Postimg: `https://source.unsplash.com/user/erondu/1200x${Math.floor(Math.random() * (800 - 400 + 1) + 400)}`

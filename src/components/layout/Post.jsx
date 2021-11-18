@@ -26,7 +26,7 @@ export default function Feed({ imgPost, nameUser, desction, imgUser }) {
 
                 <div id="dados-Post">
                     <div id="autor-Post">
-                        <img src={imgUser} alt="img" className="img-Perfil" />
+                        <img src={imgUser} alt="img" id="img-User-Post" />
                         <h2>{nameUser}</h2>
                     </div>
                 </div>

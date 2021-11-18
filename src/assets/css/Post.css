@@ -33,9 +33,17 @@
 }
 #autor-Post {
     display: flex;
+    align-items: center;
     gap: 5px;
 }
-
+#img-User-Post {
+    width: 72px;
+    border-radius: 50%;
+}
+#autor-Post h2 {
+    font-size: 1.3em;
+    font-weight: normal;
+}
 #img-Post {
     width: 100%;
 }
