@@ -1,0 +1,22 @@
+#container-Opcoes {
+    position: absolute;
+    background-color: rgb(19, 22, 22);
+    top: 70px;
+    right: 0%;
+    z-index: 9999;
+    color: rgb(0, 0, 0);
+}
+#lista-Opc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+}
+#lista-Opc li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1.1rem;
+    padding: 8px 15px;
+    margin: 5px;
+}

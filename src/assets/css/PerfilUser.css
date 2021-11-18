@@ -1,0 +1,74 @@
+#container-Perfiluser {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 400px;
+    gap: 7px;
+    padding: 10px 0;
+    background: url("../images/background-Perfil.jpg") center no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+#img-PerfilUser {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#info-Perfil {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    color: #fff;
+}
+#info-Perfil a {
+    color: #fff;
+}
+#info-Perfil h4 {
+    font-weight: normal;
+}
+#info-Perfil span {
+    font-weight: bolder;
+}
+#conteudo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    width: 100%;
+    padding-top: 20px;
+    background-color: #F0F2F5;
+}
+#controle-Post, #controle-Informacao {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+@media (max-width: 1100px) {
+    #conteudo {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #controle-Informacao {
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+}
+@media (max-width: 640px){
+    #controle-Post {
+        width: 100%;
+        align-items: center;
+    }
+    #controle-Informacao {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+}

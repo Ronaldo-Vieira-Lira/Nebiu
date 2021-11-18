@@ -1,0 +1,22 @@
+#container-Card {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+#container-Card img {
+    border-radius: 50%;
+}
+#caixa-Acao {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#caixa-Acao h3 {
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+#nome-Usuario {
+    font-size: 1.3rem;
+    font-weight: bolder;
+}

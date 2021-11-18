@@ -1,0 +1,29 @@
+#container-Sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 3px #7a7a7cc9;
+}
+legend {
+    font-size: 1.5rem;
+}
+#caixa-Sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#caixa-Sobre h4 {
+    font-weight: 500;
+    font-style: normal;
+    color: #000;
+}
+@media (max-width: 640px) {
+    #container-Sobre {
+        width: 100%;
+        align-items: center;
+    }
+}

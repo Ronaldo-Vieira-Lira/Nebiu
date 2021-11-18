@@ -1,0 +1,113 @@
+.cadastro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    color: #fff;
+    background-color: #000;
+}
+#logo-Login {
+    max-width: 500px;
+    height: 100vh;
+}
+#titulo-Cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+#titulo-Cadastro > img {
+    display: none;
+}
+.cadastro-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 15px;
+    border-radius: 5px;
+    background-color: #29292e;
+}
+.cadastro-right form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 15px;
+    text-align: center;
+}
+.input-Cadastro {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.svg-Img {
+    font-size: 28px;
+}
+.input-Cadastro input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: rgba(51, 51, 51, 0.6);
+    border: 1px solid rgba(51, 51, 51, 0);
+}
+.input-Cadastro input:focus{
+    outline: none;
+    border-color: gray;
+    background-color: rgba(51, 51, 51, 0.6);
+}
+#area-NomeCadastro {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+#container-Genero, #area-Genero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#area-Genero label {
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.buttonCadastrar {
+    width: 90%;
+    padding: 8px;
+    margin: auto;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #29292E;
+    color: white;
+    background-color: rgba(24, 24, 24, 0.76);
+}
+.buttonCadastrar:hover {
+    border: 1px solid #29292E;
+    background-color: black;
+}
+#divisor a:visited {
+    color: #fff;
+}
+#divisor a:hover {
+    color: #000;
+}
+@media (max-width: 768px) {
+    #logo-Login {
+        display: none;
+    }
+    .cadastro-right form {
+        padding: 0;
+    }
+    #titulo-Cadastro > img {
+        display: block;
+    }
+}

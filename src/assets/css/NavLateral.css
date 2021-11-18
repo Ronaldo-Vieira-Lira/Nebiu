@@ -1,0 +1,50 @@
+#container-Lateral {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding-left: 8px;
+    gap: 3px;
+    position: fixed;
+}
+#area-User {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#area-User img {
+    width: 50px;
+    border-radius: 50%;
+}
+.btn-Nav {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    padding: 5px 2px;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: transparent;
+}
+.btn-Nav:hover {
+    background-color: rgba(0, 0, 0, 0.158);
+}
+#container-Lateral h3 {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    margin: 2px;
+    color: #696B6F;
+}
+#container-Lateral ul {
+    list-style-type: none;
+}
+#container-Lateral ul li {
+    padding: 5px 2px;
+    border-radius: 5px;
+    color: #000;
+}
+#container-Lateral ul li:hover {
+    background-color: rgba(0, 0, 0, 0.158);
+}

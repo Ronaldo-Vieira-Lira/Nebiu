@@ -1,0 +1,74 @@
+#container-Post {
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+}
+#caixa-Post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 3px #7a7a7cc9;
+    background-color: #fff;
+    color: #000;
+}
+#conteudo-Post {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+#conteudo-Post p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 5px 12px;
+}
+#dados-Post {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+#autor-Post {
+    display: flex;
+    gap: 5px;
+}
+
+#img-Post {
+    width: 100%;
+}
+#area-Opniao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+#area-TextBtn {
+    padding: 5px 20px;
+    
+}
+#area-LikeDeslike {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.btnOpniao {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+@media (max-width: 630px) {
+    #conteudo-Post {
+        width: 450px;
+    }
+}
+
+@media (max-width: 470px) {
+    #container-Post, #caixa-Post  {
+        width: 100%;
+        padding: 0;
+        border-radius: 0;
+    }
+}
