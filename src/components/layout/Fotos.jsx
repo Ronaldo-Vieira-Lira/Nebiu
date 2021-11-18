@@ -24,6 +24,14 @@ export default function Fotos() {
                             <img src={Manoel} alt="img"/>
                         </a>
                     </div>
+                    <div className="fotos">
+                        <img src="https://randomuser.me/api/portraits/men/54.jpg" alt="img"/>
+                    </div>
+
+                    <div className="fotos">
+                        <img src="https://randomuser.me/api/portraits/men/89.jpg" alt="img"/>
+                    </div>
+
                 </div>
 
                 <div className="espacador">
@@ -38,6 +46,12 @@ export default function Fotos() {
                         <a href="https://github.com/Ronaldo-Vieira-Lira" target="_blank">
                             <img src={Ronaldo} alt="img"/>
                         </a>
+                    </div>
+                    <div className="fotos">
+                        <img src="https://randomuser.me/api/portraits/women/85.jpg" alt="img"/>
+                    </div>
+                    <div className="fotos">
+                        <img src="https://randomuser.me/api/portraits/men/53.jpg" alt="img"/>
                     </div>
                 </div>
             </div>
