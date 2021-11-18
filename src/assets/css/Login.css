@@ -47,6 +47,7 @@
     display: flex;
     align-items: flex-start;
     gap: 10px;
+    font-weight: normal;
     color: #ff0000;
 }
 .yellow {
