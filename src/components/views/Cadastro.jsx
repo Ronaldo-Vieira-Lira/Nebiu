@@ -13,10 +13,12 @@ const Cadastro = () => {
             <img src={Nebiu}  alt="simbolo"  id="logo-Login" />
 
             <div className="cadastro-right">
+                <br />
                 <div id="titulo-Cadastro">
                     <img src={Logo} alt="logo"/>
-                    <h1> Cadastro</h1>
+                    <h1> Registro</h1>
                 </div>
+                <br />
                 <form action="/">
                     <div id="area-NomeCadastro">
                         <label className="input-Cadastro">
@@ -31,7 +33,7 @@ const Cadastro = () => {
                             <input
                                 className="sobreNome"
                                 type="text"
-                                placeholder="Sobre Nome"
+                                placeholder="Sobrenome"
                                 required
                                 />
                         </label>
@@ -77,7 +79,7 @@ const Cadastro = () => {
                     </label>
 
                     <div id="container-Genero">
-                        <legend> Genero: </legend>
+                        <legend id="gen"> Gênero: </legend>
                         <div id="area-Genero">
                             <label for="masculino">
                                 <input type="radio" id="masculino" name="genero" required/> 
@@ -91,16 +93,21 @@ const Cadastro = () => {
 
                             <label for="outros">
                                 <input type="radio" id="outros" name="genero" /> 
-                                 Não binário
+                                 Outros
                             </label>
                         </div>
                     </div>
 
-                    <button type="submit" className="buttonCadastrar"> Cadastrar </button>
+                    <br />
+                
+                    <button type="submit" className="buttonCadastrar"> Criar conta </button>
+                    
+                    
                     <span id="divisor">
                         Já possui uma conta? 
                         <Link to="/"> Faça login. </Link>
                     </span>
+                    <br />
 
                 </form>
 

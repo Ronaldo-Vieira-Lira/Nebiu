@@ -14,7 +14,7 @@ export default function Fotos() {
                 <div className="espacador">
 
                     <div className="fotos">
-                        <a href="https://github.com/Geliel1" target="_blank">
+                        <a href="https://github.com/Geliel1" target="_blank" rel="noreferrer">
                             <img src={Geliel} alt="img" />
                         </a>
                     </div>

@@ -72,10 +72,10 @@ export default function Login() {
                                 <img src={Close} alt="img"/>
                             </span>
                         </h1>
-                        <p>Para realização do login preencha os campos de Usuário e Senha com os seguintes dados:</p>
+                        <p>Para realizar login preencha os campos de E-mail e Senha de acordo com o exemplo abaixo:</p>
                         <div id="dados-Login">
                             <h4>
-                                Usuário: <span className="color-Df"> pablosilva@gmail.com</span>
+                                E-mail: <span className="color-Df"> pablosilva@gmail.com</span>
                             </h4>
                             <h4>
                                 Senha: <span className="color-Df">pablo123</span>
@@ -99,7 +99,7 @@ export default function Login() {
 
                     <form action={acao} id="form">
                         <input
-                            placeholder="Usuário ou E-mail"
+                            placeholder="E-mail"
                             type="email"
                             id="user"
                             required
@@ -111,8 +111,10 @@ export default function Login() {
                             required
                         />
 
-                        <button type="button" className="esqueceu" onClick={() => setEsqueceu(true)}> Esqueceu a senha? </button>
-
+                        <button type="button" className="esqueceu" onClick={() => setEsqueceu(true)}> Esqueceu a senha? Clique aqui </button>
+                        
+                        <br />
+                        
                         <button type="submit" id="btn-Login" onClick={() => {
                             funcao(document.getElementById("user").value, document.getElementById("senha").value)
                         }}>Entrar</button>
@@ -123,6 +125,7 @@ export default function Login() {
                         Não tem uma conta?
                         <Link to="/cadastro" id="btn-cadast"> Cadastre-se </Link>
                     </p>
+                    <br />
                 </div>
             </div>
         </div>
