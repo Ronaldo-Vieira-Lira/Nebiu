@@ -19,7 +19,7 @@
 #conteudo-Post {
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 800px;
 }
 #conteudo-Post p {
     font-size: 1.2rem;

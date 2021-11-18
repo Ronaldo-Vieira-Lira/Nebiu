@@ -33,15 +33,15 @@ export default function Lateral({userImg, userName}) {
                 </button>
             </Link>
             <h3> <span> <img src={Hashtag} alt="img"/> </span> Hashtags em alta </h3>
-            <ul>
+            <ul className="lista-Nav">
                 <li>#Python</li>
                 <li>#ReactJs</li>
                 <li>#Javascript</li>
-                <li>#Html</li>
-                <li>#Css</li>
+                <li>#HTML</li>
+                <li>#CSS</li>
             </ul>
-            <h3> <span> <img src={Grupo} alt="img"/> </span> Grupos </h3>
-            <ul>
+            <h3 id="grup-Nav"> <span> <img src={Grupo} alt="img"/> </span> Grupos </h3>
+            <ul className="lista-Nav">
                 <li>DevMedia <span>🧠</span></li>
                 <li>Rocketseat <span>👾</span></li>
                 <li>Codigo Fonte <span>☕</span></li>
