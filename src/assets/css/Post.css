@@ -59,6 +59,16 @@
     border: none;
     cursor: pointer;
 }
+@media(max-width: 1710px) {
+    #conteudo-Post {
+        width: 600px;
+    }
+}
+@media(max-width: 1024px) {
+    #conteudo-Post {
+        width: 500px;
+    }
+}
 @media (max-width: 630px) {
     #conteudo-Post {
         width: 450px;

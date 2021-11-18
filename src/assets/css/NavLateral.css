@@ -65,3 +65,23 @@
 .lista-Nav {
     margin-left: 20px;
 }
+
+@media(max-width: 1710px) {
+    #container-Lateral{
+        margin-left: 30px;
+        width: 250px;
+    }
+    #area-User img {
+        width: 150px;
+    }
+}
+@media(max-width: 1024px){
+    #container-Lateral{
+        margin-left: 20px;
+        width: 200px;
+    }
+    #area-User img {
+        width: 120px;
+    }
+    
+}
