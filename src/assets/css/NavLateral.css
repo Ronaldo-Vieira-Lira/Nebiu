@@ -7,7 +7,6 @@
     margin-left: 80px;
     padding: 15px;
     height: 85%;
-    overflow-y: scroll;
     border-radius: 8px;
     box-shadow: 0 0 3px #7a7a7cc9;
     background-color: #fff;
@@ -67,7 +66,21 @@
 .lista-Nav {
     margin-left: 20px;
 }
-
+@media(max-height: 900px) {
+    #container-Lateral {
+        overflow-y: scroll;
+    }
+    #container-Lateral::-webkit-scrollbar{
+        width: 10px;
+    }
+    #container-Lateral::-webkit-scrollbar-track {
+        background: #fff;
+    }
+    #container-Lateral::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.158);  
+        border-radius: 10px;
+    }
+}
 @media(max-width: 1710px) {
     #container-Lateral{
         margin-left: 30px;
